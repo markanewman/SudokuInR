@@ -1,0 +1,12 @@
+# source: https://www.ceremade.dauphine.fr/~xian/basudo.R
+# Reference value (hard sudoku)
+s=matrix(0,ncol=9,nrow=9)
+s[1,8:9]=c(3,9)
+s[2,c(6,9)]=c(1,5)
+s[3,c(3,5,7)]=c(3,5,8)
+s[4,c(3,5,9)]=c(8,9,6)
+s[5,c(2,6)]=c(7,2)
+s[6,c(1,4)]=c(1,4)
+s[7,c(3,5,8)]=c(9,8,5)
+s[8,c(2,7)]=c(2,6)
+s[9,c(1,4)]=c(4,7)
